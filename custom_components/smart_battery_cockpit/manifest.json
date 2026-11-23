@@ -1,0 +1,12 @@
+{
+  "domain": "smart_battery_cockpit",
+  "name": "Smart Battery Cockpit",
+  "codeowners": ["@AndreasConradCH"],
+  "config_flow": true,
+  "dependencies": ["frontend", "http", "panel_custom", "websocket_api"],
+  "documentation": "https://github.com/AndreasConradCH/ha-smart-battery-cockpit",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/AndreasConradCH/ha-smart-battery-cockpit/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

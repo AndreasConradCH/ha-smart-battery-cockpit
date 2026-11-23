@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Battery Cockpit Einrichtung",
+        "description": "Konfiguriere deine SQLite-Batterie-Datenbank, die automatische Batteriewechsel-Rückfrage aufs Smartphone und den täglichen Round-Trip.",
+        "data": {
+          "notify_service": "Smartphone-Benachrichtigungsdienst (für Wechsel-Rückfragen)",
+          "roundtrip_hour": "Uhrzeit für den täglichen Round-Trip (0–23 Uhr)",
+          "jump_threshold": "Mindestsprung für Batteriewechsel-Erkennung (%)",
+          "exclude_rechargeable": "Handys, Laptops, Tablets & Saugroboter automatisch ausblenden",
+          "show_sidebar": "Batterie-Cockpit in der Home Assistant Seitenleiste anzeigen"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Smart Battery Cockpit ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Smart Battery Cockpit Einstellungen",
+        "description": "Passe Benachrichtigungsziel, Round-Trip-Uhrzeit und Sprung-Schwelle an.",
+        "data": {
+          "notify_service": "Smartphone-Benachrichtigungsdienst (für Wechsel-Rückfragen)",
+          "roundtrip_hour": "Uhrzeit für den täglichen Round-Trip (0–23 Uhr)",
+          "jump_threshold": "Mindestsprung für Batteriewechsel-Erkennung (%)",
+          "exclude_rechargeable": "Handys, Laptops, Tablets & Saugroboter automatisch ausblenden",
+          "show_sidebar": "Batterie-Cockpit in der Home Assistant Seitenleiste anzeigen"
+        }
+      }
+    }
+  }
+}

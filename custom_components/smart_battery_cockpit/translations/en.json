@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Battery Cockpit Setup",
+        "description": "Configure your SQLite-backed Battery Lifecycle Tracker, automatic swap confirmation notifications, and daily round-trip schedule.",
+        "data": {
+          "notify_service": "Mobile notification service (for swap confirmations)",
+          "roundtrip_hour": "Daily round-trip hour (0–23)",
+          "jump_threshold": "Minimum upward jump to trigger swap confirmation (%)",
+          "exclude_rechargeable": "Exclude phones, laptops, tablets & robot vacuums",
+          "show_sidebar": "Show Battery Cockpit in Home Assistant sidebar"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Smart Battery Cockpit is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Smart Battery Cockpit Settings",
+        "description": "Adjust notification target, daily round-trip hour, and swap detection threshold.",
+        "data": {
+          "notify_service": "Mobile notification service (for swap confirmations)",
+          "roundtrip_hour": "Daily round-trip hour (0–23)",
+          "jump_threshold": "Minimum upward jump to trigger swap confirmation (%)",
+          "exclude_rechargeable": "Exclude phones, laptops, tablets & robot vacuums",
+          "show_sidebar": "Show Battery Cockpit in Home Assistant sidebar"
+        }
+      }
+    }
+  }
+}
