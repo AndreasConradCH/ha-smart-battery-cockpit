@@ -9,6 +9,18 @@ Unlike standard battery cards that only show the current percentage and lose his
 
 ---
 
+## 📸 Screenshots
+
+### Main Cockpit Overview
+![Smart Battery Cockpit Overview](docs/images/cockpit_overview.jpg)
+
+### Interactive 90-Day Device Line Chart (Charge `%` + Voltage `V`)
+> *Real-world example below: On Nov 15 an integration update caused a rapid Zigbee polling drain on `AQ Termostat Bad` (55% → 15%). After fixing the polling bug on Nov 18, the chart immediately captured the battery resting-voltage recovery back to 36%!*
+
+![Interactive 90-Day Device Line Chart](docs/images/device_line_chart.png)
+
+---
+
 ## ✨ Key Features
 
 - **🗄️ Permanent SQLite Lifecycle Database:** Stores daily battery `%` and voltage (`mV`) snapshots permanently in `/config/smart_battery_cockpit.db` — completely independent of Home Assistant's 10-day recorder purge.
